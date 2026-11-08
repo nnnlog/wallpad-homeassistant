@@ -18,14 +18,21 @@ error in Home Assistant and is never resent, so press again if you still want th
 
 ## Install
 
+With [HACS](https://hacs.xyz):
+
+1. In HACS, open the menu and choose **Custom repositories**.
+2. Add `https://github.com/nnnlog/wallpad-homeassistant` with the type **Integration**.
+3. Find **Wallpad server** in HACS, download it, and restart Home Assistant.
+
+By hand:
+
 1. Copy `custom_components/wallpad_server` into the `custom_components` folder of your Home
    Assistant configuration directory, the one holding `configuration.yaml`. Create the folder if it
    does not exist.
-2. Restart Home Assistant.
-3. Go to **Settings > Devices & services > Add integration**, choose **Wallpad server**, and enter
-   your server's host and port.
+2. Restart Home Assistant. To update, copy the folder again and restart.
 
-To update, copy the folder again and restart.
+Then go to **Settings > Devices & services > Add integration**, choose **Wallpad server**, and enter
+your server's host and port.
 
 ## How it talks to the server
 

@@ -1,11 +1,13 @@
 {
   "domain": "wallpad_server",
   "name": "Wallpad server",
-  "codeowners": [],
+  "codeowners": ["@nnnlog"],
   "config_flow": true,
   "dependencies": [],
+  "documentation": "https://github.com/nnnlog/wallpad-homeassistant",
   "integration_type": "device",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/nnnlog/wallpad-homeassistant/issues",
   "requirements": [],
   "version": "0.1.0"
 }
