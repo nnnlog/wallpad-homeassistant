@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to the wallpad server",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the wallpad server.",
+      "no_elevator": "This server does not offer elevator calls."
+    },
+    "abort": {
+      "already_configured": "This server is already configured."
+    }
+  },
+  "entity": {
+    "button": {
+      "call_down": {
+        "name": "Call down"
+      },
+      "call_up": {
+        "name": "Call up"
+      }
+    },
+    "sensor": {
+      "car": {
+        "name": "Car {number}"
+      }
+    }
+  }
+}
